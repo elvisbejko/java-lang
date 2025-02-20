@@ -41,6 +41,13 @@ and then execute it, not through `javac`, but rather
 mvn exec: java -Dexec.mainClass="EnvToken"
 
 ```
+### `static`
+
+If a method within a class is `static` then that means that we can invoke the method
+without having to instantiate the class itself.
+
+
+
 
 ## `Java` installation
 
