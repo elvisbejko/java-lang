@@ -22,6 +22,19 @@ without the `.class` extension, in fact `java` looks for the class in the curren
 `CLASSPATH`. The class *must* have a `main` method.
 
 
+## `maven`
+
+We need a `pom.xml` to define the project structure and dependencies. Then we run
+
+```console
+mvn install
+
+```
+
+and `maven` will install the dependencies in `~/.m2/repository`.
+
+
+
 ## `Java` installation
 
 Install latest `java` development-kit:
