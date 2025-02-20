@@ -33,7 +33,14 @@ mvn install
 
 and `maven` will install the dependencies in `~/.m2/repository`.
 
+`maven` is much like `cargo`, it manages the project entirely. You need a specific 
+structure for `maven` to execute properly: you need to have your code in `./src/main/java`
+and then execute it, not through `javac`, but rather
 
+```console
+mvn exec: java -Dexec.mainClass="EnvToken"
+
+```
 
 ## `Java` installation
 
